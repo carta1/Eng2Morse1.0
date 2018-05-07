@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="c.yayo.experiment.Eng2morseFActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <EditText
+    android:id="@+id/englishInput1"
+    android:layout_width="300dp"
+    android:layout_height="77dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="56dp"
+    android:ems="10"
+    android:fontFamily="sans-serif"
+    android:inputType="textPersonName"
+
+    android:textColor="@android:color/background_light"
+    android:textSize="18sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.016" />
+
+    <Button
+        android:id="@+id/translateB"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="sans-serif"
+
+        android:text="@string/translate"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:drawableBottom="@drawable/ic_translate_white_24px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/resetB"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/englishInput1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Translate" />
+
+    <Button
+        android:id="@+id/sendLatLong"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="sans-serif"
+        android:text="Send Lat/Long"
+        android:textColor="@android:color/background_light"
+        android:drawableBottom="@drawable/ic_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/resetB"
+        app:layout_constraintStart_toEndOf="@+id/translateB"
+        app:layout_constraintTop_toBottomOf="@+id/englishInput1"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/resetB"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/reset"
+        android:textColor="@android:color/background_light"
+        android:drawableBottom="@drawable/ic_restore_white_24px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/englishInput1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Reset" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="English input"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/englishInput1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/coordinates"
+        android:layout_width="205dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+        android:textColor="?android:attr/colorControlActivated"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/englishInput1"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <Button
+        android:id="@+id/stopupdate"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="140dp"
+        android:enabled="false"
+        android:text="Stop updating gps"
+        android:textColor="@android:color/background_light"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/englishInput1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/updates"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="144dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="232dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:drawableBottom="@drawable/ic_location_on_white_24px"
+        android:fontFamily="sans-serif"
+        android:text="@string/GetLatLong"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/translateB"
+        app:layout_constraintEnd_toStartOf="@+id/coordinates"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Get lat/Long" />
+
+</android.support.constraint.ConstraintLayout>

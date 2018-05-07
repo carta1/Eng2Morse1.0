@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24px"
+            android:title="Home" />
+        <item
+            android:id="@+id/morseAlphabet"
+            android:icon="@drawable/ic_translate_black_24px"
+            android:title="Morse Alphabet" />
+        <item
+            android:id="@+id/instructions"
+            android:icon="@drawable/ic_info_black_24px"
+            android:title="Instructions" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/ic_map_black_24px"
+            android:title="Map" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_live_help_black_24px"
+            android:title="About" />
+    </group>
+
+
+
+</menu>
