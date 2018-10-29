@@ -5,14 +5,12 @@ The purpose of this application is to translate English to Morse code in a a fas
 Special thanks to the Google team for providing the GMS location API tat i used to acquire the Lat and Long.Here are some
 Screen shoots of the app it self.
 
-![eng2morse1](https://user-images.githubusercontent.com/20260943/47682787-dedd5700-dba3-11e8-90ba-24b5ffae91d2.png)
+![eng2morse1_1](https://user-images.githubusercontent.com/20260943/47683609-7774d680-dba6-11e8-9d87-a99a69d78fe3.png)
+![eng2morse2_2](https://user-images.githubusercontent.com/20260943/47683611-78a60380-dba6-11e8-966f-23bca66b59f3.png)
+![eng2morse3_3](https://user-images.githubusercontent.com/20260943/47683617-7ba0f400-dba6-11e8-9ebf-dc85fda1208e.png)
+![eng2morse4_4](https://user-images.githubusercontent.com/20260943/47683620-7cd22100-dba6-11e8-87e1-4fbacd1df121.png)
+![eng2morse5_5](https://user-images.githubusercontent.com/20260943/47683622-7e9be480-dba6-11e8-81d1-c0cbc863f231.png)
+![eng2morse6_6](https://user-images.githubusercontent.com/20260943/47683629-7fcd1180-dba6-11e8-9218-3df93ef9c165.png)
 
-![eng2morse2](https://user-images.githubusercontent.com/20260943/47682798-e866bf00-dba3-11e8-82e9-4169a3c96a40.png)
 
-![eng2morse3](https://user-images.githubusercontent.com/20260943/47682805-eb61af80-dba3-11e8-816d-aa2ec156d83b.png)
 
-![eng2morse4](https://user-images.githubusercontent.com/20260943/47682808-edc40980-dba3-11e8-8414-63c2dba85b83.png)
-
-![eng2morse5](https://user-images.githubusercontent.com/20260943/47682817-f4eb1780-dba3-11e8-9a8e-fddd6be51f3f.png)
-
-![eng2morse6](https://user-images.githubusercontent.com/20260943/47682824-fddbe900-dba3-11e8-8edf-ddfdb2817fc9.png)
