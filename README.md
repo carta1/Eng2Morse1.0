@@ -1,6 +1,6 @@
 # Eng2Morse1.0
 
-The purpose of this application is to translate English to Morse code in a a fast an efficient way, for survival pusposes, or finding your way arond in an unknown area. The app uses GPS without the need of a cellphone signal excellent for occasions where you are off the grid or in the mountains. Language use is Kotlin 
+The purpose of this application is to translate English to Morse code in a a fast an efficient way, for survival pusposes, or finding your way arond an unknown area. The app uses GPS without the need of a cellphone signal. Excellent for occasions where you are off the grid or in the mountains.
 
 Special thanks to the Google team for providing the GMS location API that I used to acquire the Lat and Long. Here are some
 screen shots of the app it self.
